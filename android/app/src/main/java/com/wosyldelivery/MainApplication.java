@@ -23,16 +23,16 @@ public class MainApplication extends Application implements ReactApplication {
       return BuildConfig.DEBUG;
     }
 
-    @Override
-    protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new VectorIconsPackage()
-      );
-    }
+    // @Override
+    // protected List<ReactPackage> getPackages() {
+    //   return Arrays.<ReactPackage>asList(
+    //       new MainReactPackage(),
+    //         new VectorIconsPackage()
+    //   );
+    // }
     @Override
     protected String getJSBundleFile() {
-      return CodePush.getJSBundleFile();
+      // return CodePush.getJSBundleFile();
     }
   };
 
