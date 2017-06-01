@@ -2,9 +2,8 @@ package com.wosyldelivery;
 
 import android.app.Application;
 import android.util.Log;
-
+import com.cmcewen.blurview.BlurViewPackage;
 import com.facebook.react.ReactApplication;
-import com.microsoft.codepush.react.CodePush;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -23,17 +22,18 @@ public class MainApplication extends Application implements ReactApplication {
       return BuildConfig.DEBUG;
     }
 
-    // @Override
-    // protected List<ReactPackage> getPackages() {
-    //   return Arrays.<ReactPackage>asList(
-    //       new MainReactPackage(),
-    //         new VectorIconsPackage()
-    //   );
-    // }
     @Override
-    protected String getJSBundleFile() {
-      // return CodePush.getJSBundleFile();
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+            new VectorIconsPackage(),
+            new BlurViewPackage()
+      );
     }
+    // @Override
+    // protected String getJSBundleFile() {
+    //   return CodePush.getJSBundleFile();
+    // }
   };
 
   @Override
