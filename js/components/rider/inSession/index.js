@@ -7,7 +7,6 @@ import polyline from 'polyline';
 
 import {BlurView} from 'react-native-blur';
 import LoadingOverlay from '../LoadingOverlay';
-import AwesomeButton from 'react-native-awesome-button';
 import ActionCable from 'react-native-actioncable';
  var {CountDownText} = require('react-native-sk-countdown');
  import StarRating from 'react-native-star-rating';

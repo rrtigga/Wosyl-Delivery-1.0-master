@@ -13,7 +13,6 @@ import ActionCable from 'react-native-actioncable';
  import PushNotification from 'react-native-push-notification';
 
 
-import AwesomeButton from 'react-native-awesome-button';
 
 import { Image, AppState, View, Dimensions, Platform, StatusBar, Switch, Slider, DatePickerIOS, Picker, PickerIOS, ProgressViewIOS, TouchableOpacity,Linking, Modal, } from 'react-native';
 var {GooglePlacesAutocomplete} = require('react-native-google-places-autocomplete');
