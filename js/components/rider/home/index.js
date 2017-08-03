@@ -9,7 +9,6 @@ import Modal from 'react-native-simple-modal';
 
 import {BlurView} from 'react-native-blur';
 import LoadingOverlay from '../LoadingOverlay';
-import AwesomeButton from 'react-native-awesome-button';
 
 import { Image, View, Dimensions, Platform, StatusBar, Switch, Slider, DatePickerIOS, Picker, PickerIOS, ProgressViewIOS, ScrollView, DeviceEventEmitter, TouchableOpacity} from 'react-native';
 var {GooglePlacesAutocomplete} = require('react-native-google-places-autocomplete');
